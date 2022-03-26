@@ -1,0 +1,89 @@
+{
+  "errors": {
+    "400": {
+      "msg": "خطایی رخ داده است"
+    },
+    "401": {
+      "msg": "ورود به حساب کاربری جهت دسترسی الزامی است"
+    },
+    "403": {
+      "msg": "دسترسی به این قسمت برای شما مجاز نمی باشد"
+    },
+    "404": {
+      "msg": "نتیجه ای برای این درخواست پیدا نشد"
+    },
+    "dbConnectionError": {
+      "msg": "خطای اتصال به پایگاه داده"
+    },
+    "auth": {
+      "userIsSuspended": "کاربر تعلیق شده است",
+      "authenticateService": {
+        "passMatchErr": "اطلاعات کاربری صحیح نمی باشد"
+      },
+      "getRefreshTokenService": {
+        "invalidRefreshToken": "توکن تمدید کننده اشتباه است"
+      },
+      "registerService": {
+        "emailInUse": "این آدرس پست الکترونیک قبلا استفاده شده است"
+      },
+      "signinSchema": {
+        "email": "ورود نشانی پست الکترونیک صحیح الزامی است",
+        "password": "وارد کردن کلمه عبور الزامی است"
+      },
+      "signupSchema": {
+        "firstName": "ورود نام الزامی است",
+        "lastName": "ورود نام خانوادگی الزامی است",
+        "email": "نشانی پست الکترونیک میبایست صحیح وارد شود",
+        "passwordLength": "ورود گذرواژه با طول بیش از ۳۰ کاراکتر مجاز نمی باشد",
+        "passwordTooWeak": "ورود گذرواژه ضعبف مجاز نمی باشد",
+        "passwordDifficulty": "گذرواژه میبایست حداقل ۸ کاراکتر و دربرگیرنده حروف کوچک، بزرگ و اعداد باشد"
+      }
+    },
+    "taxonomies": {
+      "createService": {
+        "duplicateTaxonomyErr": "ایجاد دسته بندی تکراری مجاز نمی باشد"
+      },
+      "editService": {
+        "parentNotFoundErr": "دسته والد پیدا نشد"
+      }
+    }
+  },
+
+  "info": {
+    "activities": {
+      "list": {
+        "successMsg": "دریافت لیست فعالیت ها"
+      }
+    },
+    "auth": {
+      "signin": {
+        "successMsg": "کاربر وارد شد"
+      },
+      "signout": {
+        "successMsg": "کاربر خارج شد"
+      },
+      "signup": {
+        "successMsg": "کاربر ثبت نام کرد"
+      },
+      "avatarChanged": {
+        "successMsg": "تصویر کاربر با موفقیت تغییر کرد"
+      }
+    },
+    "admin": {
+      "userDeleted": {
+        "successMsg": "مدیر کاربر را حذف نمود"
+      },
+      "userClaimsModified": {
+        "successMsg": "مدیر دسترسی های کاربر را تغییر داد"
+      }
+    },
+    "attachments": {
+      "create": {
+        "successMsg": "اطلاعات فایل بارگزاری شده با موفقیت در پایگاه داده ذخیره گردید"
+      },
+      "edit": {
+        "successMsg": "اطلاعات فایل بارگزاری شده با موفقیت ویرایش گردید"
+      }
+    }
+  }
+}

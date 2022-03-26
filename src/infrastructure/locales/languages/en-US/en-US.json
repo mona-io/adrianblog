@@ -1,0 +1,89 @@
+{
+  "errors": {
+    "400": {
+      "msg": "Something went wrong"
+    },
+    "401": {
+      "msg": "Authentication is required"
+    },
+    "403": {
+      "msg": "You are not authorized"
+    },
+    "404": {
+      "msg": "Not found"
+    },
+    "dbConnectionError": {
+      "msg": "Error connecting to database"
+    },
+    "auth": {
+      "userIsSuspended": "User is suspended",
+      "authenticateService": {
+        "passMatchErr": "Invalid credentials"
+      },
+      "getRefreshTokenService": {
+        "invalidRefreshToken": "Invalid refresh token"
+      },
+      "registerService": {
+        "emailInUse": "Email in use"
+      },
+      "signinSchema": {
+        "email": "Email must be valid",
+        "password": "You must supply a password"
+      },
+      "signupSchema": {
+        "firstName": "You must enter your first name",
+        "lastName": "You must enter your last name",
+        "email": "Email must be valid",
+        "passwordLength": "Supplied password must be less than 30 characters",
+        "passwordTooWeak": "Weak password is not allowed",
+        "passwordDifficulty": "Your password must have at least 8 letters including uppercase letters, lowercase letters and numbers"
+      }
+    },
+    "taxonomies": {
+      "createService": {
+        "duplicateTaxonomyErr": "Duplicate taxonomy is not allowed"
+      },
+      "editService": {
+        "parentNotFoundErr": "Parent taxonomy not found"
+      }
+    }
+  },
+
+  "info": {
+    "activities": {
+      "list": {
+        "successMsg": "Getting list of activities"
+      }
+    },
+    "auth": {
+      "signin": {
+        "successMsg": "User signed in"
+      },
+      "signout": {
+        "successMsg": "User signed out"
+      },
+      "signup": {
+        "successMsg": "User signed up"
+      },
+      "avatarChanged": {
+        "successMsg": "User avatar changed successfully"
+      }
+    },
+    "admin": {
+      "userDeleted": {
+        "successMsg": "Admin deleted user successfully"
+      },
+      "userClaimsModified": {
+        "successMsg": "Admin modified user's claims"
+      }
+    },
+    "attachments": {
+      "create": {
+        "successMsg": "Uploaded file info added to database successfully"
+      },
+      "edit": {
+        "successMsg": "Uploaded file info modified successfully"
+      }
+    }
+  }
+}
